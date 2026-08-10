@@ -20,8 +20,8 @@ interface ExperienceDetailPageProps {
 }
 
 // Helper function to extract year from date
-const getYearFromDate = (date: Date): string => {
-  return new Date(date).getFullYear().toString();
+const getYearMonthFromDate = (date: Date): string => {
+  return `${date.getFullYear()}.${String(date.getMonth() + 1).padStart(2, "0")}`;
 };
 
 // Helper function to get duration text
@@ -29,10 +29,10 @@ const getDurationText = (
   startDate: Date,
   endDate: Date | "Present"
 ): string => {
-  const startYear = getYearFromDate(startDate);
-  const endYear =
-    typeof endDate === "string" ? "Present" : getYearFromDate(endDate);
-  return `${startYear} - ${endYear}`;
+  const start = getYearMonthFromDate(startDate);
+  const end =
+    typeof endDate === "string" ? "Present" : getYearMonthFromDate(endDate);
+  return `${start} - ${end}`;
 };
 
 export async function generateMetadata({
@@ -189,7 +189,7 @@ export default async function ExperienceDetailPage({
                     </div>
                   </div>
                   <div className="flex justify-center sm:justify-end">
-                    <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20 whitespace-nowrap">
                       {getDurationText(
                         experience.startDate,
                         experience.endDate
