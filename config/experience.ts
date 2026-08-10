@@ -20,8 +20,8 @@ export const experiences: ExperienceInterface[] = [
     position: "Senior AI & Full Stack Software Engineer",
     company: "Vertex AI Systems Inc.",
     location: "United States, Remote",
-    startDate: new Date("2025-02-01"),
-    endDate: new Date("2026-03-01"),
+    startDate: new Date("2023-02-01"),
+    endDate: new Date("2024-03-01"),
     description: [
       "Designed and delivered AI-powered applications for real-world business workflows.",
       "Built intelligent systems that improve knowledge access, decision-making and operational efficiency.",
