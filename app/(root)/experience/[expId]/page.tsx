@@ -21,10 +21,9 @@ interface ExperienceDetailPageProps {
 
 // Helper function to extract year from date
 const getYearMonthFromDate = (date: Date): string => {
-  const nextMonth = new Date(date);
-  nextMonth.setMonth(nextMonth.getMonth() + 1);
-
-  return `${nextMonth.getFullYear()}.${String(nextMonth.getMonth() + 1).padStart(2, "0")}`;
+  const utcYear = date.getUTCFullYear();
+  const utcMonth = date.getUTCMonth() + 1;
+  return `${utcYear}.${String(utcMonth).padStart(2, "0")}`;
 };
 
 // Helper function to get duration text
