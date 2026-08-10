@@ -10,7 +10,10 @@ import { ExperienceInterface } from "@/config/experience";
 
 // Helper function to extract year from date
 const getYearMonthFromDate = (date: Date): string => {
-  return `${date.getFullYear()}.${String(date.getMonth() + 2).padStart(2, "0")}`;
+  const nextMonth = new Date(date);
+  nextMonth.setMonth(nextMonth.getMonth() + 1);
+
+  return `${nextMonth.getFullYear()}.${String(nextMonth.getMonth() + 1).padStart(2, "0")}`;
 };
 
 // Helper function to get duration text
