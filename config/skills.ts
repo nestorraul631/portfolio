@@ -26,7 +26,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "GraphQL",
     description:
       "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
+    rating: 5,
     icon: Icons.graphql,
   },
   {
@@ -75,14 +75,14 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "HTML 5",
     description:
       "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
+    rating: 5,
     icon: Icons.html5,
   },
   {
     name: "CSS 3",
     description:
       "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
+    rating: 5,
     icon: Icons.css3,
   },
   {
@@ -96,21 +96,21 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Angular",
     description:
       "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
+    rating: 5,
     icon: Icons.angular,
   },
   {
     name: "Redux",
     description:
       "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
+    rating: 5,
     icon: Icons.redux,
   },
   {
     name: "Socket.io",
     description:
       "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
+    rating: 5,
     icon: Icons.socketio,
   },
   {
@@ -132,21 +132,21 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "AWS",
     description:
       "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
+    rating: 4,
     icon: Icons.amazonaws,
   },
   {
     name: "Bootstrap",
     description:
       "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
+    rating: 4,
     icon: Icons.bootstrap,
   },
   {
     name: "MySQL",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+    rating: 5,
     icon: Icons.mysql,
   },
   {
