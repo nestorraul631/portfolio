@@ -12,6 +12,8 @@ import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { ModalProvider } from "@/providers/modal-provider";
 
+import CursorTrailCanvas from "@/components/cursor-trail-canvas";
+
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -129,6 +131,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           {children}
           {/* <Analytics /> */}
           <Toaster />
+          <CursorTrailCanvas className="pointer-events-none fixed inset-0 z-[9999] h-full w-full" />
           <ModalProvider />
         </ThemeProvider>
         <Script
