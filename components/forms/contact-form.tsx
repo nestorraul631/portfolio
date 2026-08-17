@@ -47,35 +47,43 @@ export function ContactForm() {
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      // const response = await fetch("/api/contact", {
-      //   method: "POST",
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //   },
-      //   body: JSON.stringify(values),
-      // });
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to send message.");
+      }
 
       form.reset();
 
-      // if (response.status === 200) {
-        storeModal.onOpen({
-          title: "Thankyou!",
-          description:
-            "Your message has been received! I appreciate your contact and will get back to you shortly.",
-          icon: Icons.successAnimated,
-        });
-      // }
-    } catch (err) {
-      console.log("Err!", err);
+      storeModal.onOpen({
+        title: "Thank you!",
+        description:
+          "Your message has been received! I appreciate your contact and will get back to you shortly.",
+        icon: Icons.successAnimated,
+      });
+    } catch (error) {
+      console.error("Contact form error:", error);
+
+      storeModal.onOpen({
+        title: "Something went wrong",
+        description:
+          "We couldn't send your message. Please try again later.",
+        icon: Icons.close,
+      });
     }
   }
 
   return (
     <Form {...form}>
-      <form
-        onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-8 min-w-full"
-      >
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 min-w-full">
         <FormField
           control={form.control}
           name="name"
