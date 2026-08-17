@@ -1,3 +1,6 @@
+import { TbBrandCSharp } from "react-icons/tb"; // C# Icon from Tabler Icons
+import { FaJava } from "react-icons/fa6";
+
 import {
   AlertTriangle,
   ArrowRight,
@@ -10,6 +13,7 @@ import {
   ChevronRight,
   Clock,
   CreditCard,
+  Cpu,
   File,
   FileText,
   HelpCircle,
@@ -33,16 +37,27 @@ import {
   User,
   X,
   Zap,
+  Brain,           // AI / ML knowledge
+  Database,        // Vector DB / SQL
+  GitBranch,       // CI/CD pipelines
+  Layers,          // Microservices
+  Network,         // AI Agents
+  Server,          // REST APIs
+  Workflow,        // LangChain
 } from "lucide-react";
+
 import { AiFillStar } from "react-icons/ai";
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
 import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
+
 import {
   HiBriefcase,
   HiOutlineExternalLink,
   HiOutlineLink,
 } from "react-icons/hi";
+
 import { IoIosGitBranch } from "react-icons/io";
+
 import {
   SiAmazonwebservices,
   SiAngular,
@@ -67,7 +82,26 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiX,
+  SiDjango,
+  SiDocker,
+  SiFastapi,
+  SiGo,
+  SiGooglecloud,
+  SiKubernetes,
+  SiLaravel,
+  SiOpenai,
+  SiPhp,
+  SiPostgresql,
+  SiPython,
+  SiRedis,
+  SiRubyonrails,
+  SiRust,
+  SiSupabase,
+  SiTerraform,
+  SiVercel,
 } from "react-icons/si";
+
+import { VscAzure } from "react-icons/vsc";
 
 export const Icons = {
   contact: Phone,
@@ -122,6 +156,43 @@ export const Icons = {
   nodejs: SiNodedotjs,
   react: SiReact,
   redux: SiRedux,
+  // AI & LLM Engineering
+  aiagents: Network,          
+  ragsystems: Brain,          
+  llmintegrations: Sparkles,  
+  openai: SiOpenai,           
+  langchain: Workflow,        
+  vectordatabases: Database,  
+
+  // Backend Architecture & APIs
+  fastapi: SiFastapi,         
+  django: SiDjango,           
+  restapi: Server,            
+  microservices: Layers,      
+  python: SiPython,           
+  java: FaJava,               
+  go: SiGo,                   
+  rust: SiRust,               
+  csharp: TbBrandCSharp,           
+  c: Cpu,                     
+  php: SiPhp,                 
+  laravel: SiLaravel,         
+  rubyonrails: SiRubyonrails, 
+
+  // Data & Storage Solutions
+  postgresql: SiPostgresql,   
+  sql: Database,              
+  redis: SiRedis,             
+  supabase: SiSupabase,       
+
+  // DevOps & Cloud
+  docker: SiDocker,           
+  kubernetes: SiKubernetes,   
+  terraform: SiTerraform,     
+  azure: VscAzure,            
+  gcp: SiGooglecloud,         
+  cicd: GitBranch,            
+  vercel: SiVercel,           
   socketio: SiSocketdotio,
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,
