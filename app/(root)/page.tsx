@@ -41,7 +41,7 @@ export default function IndexPage() {
     name: siteConfig.authorName,
     url: siteConfig.url,
     image: siteConfig.ogImage,
-    jobTitle: "Senior AI & Full Stack Software Engineer | LLM Integrations, AI Automation, Cloud Architecture (AWS/Azure)",
+    jobTitle: "Senior Software Engineer | AI Agents, RAG & LLM Systems | Full-Stack (React/Next.js, Python/Node) | AWS & Azure",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
@@ -100,7 +100,7 @@ export default function IndexPage() {
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Senior AI & Full Stack Software Engineer | LLM Integrations, AI Automation, Cloud Architecture (AWS/Azure)
+            Senior Software Engineer | AI Agents, RAG & LLM Systems | Full-Stack (React/Next.js, Python/Node) | AWS & Azure
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">

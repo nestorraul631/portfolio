@@ -57,12 +57,12 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.nodejs,
   },
-  {
-    name: "Nest.js",
-    description: "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
+  // {
+  //   name: "Nest.js",
+  //   description: "Create scalable and modular applications with a progressive Node.js framework.",
+  //   rating: 4,
+  //   icon: Icons.nestjs,
+  // },
   {
     name: "Express.js",
     description: "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
@@ -75,18 +75,18 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.fastapi,
   },
-  {
-    name: "Django",
-    description: "Accelerate backend development with a secure, battery-included Python web framework.",
-    rating: 4,
-    icon: Icons.django,
-  },
-  {
-    name: "Socket.io",
-    description: "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 5,
-    icon: Icons.socketio,
-  },
+  // {
+  //   name: "Django",
+  //   description: "Accelerate backend development with a secure, battery-included Python web framework.",
+  //   rating: 4,
+  //   icon: Icons.django,
+  // },
+  // {
+  //   name: "Socket.io",
+  //   description: "Enable real-time, bidirectional communication between clients and servers effortlessly.",
+  //   rating: 5,
+  //   icon: Icons.socketio,
+  // },
   {
     name: "GraphQL",
     description: "Fetch data precisely with a powerful query language for APIs and runtime execution.",
@@ -123,12 +123,12 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.go,
   },
-  {
-    name: "Rust",
-    description: "Build blazing-fast, memory-safe systems software without garbage collection overhead.",
-    rating: 4,
-    icon: Icons.rust,
-  },
+  // {
+  //   name: "Rust",
+  //   description: "Build blazing-fast, memory-safe systems software without garbage collection overhead.",
+  //   rating: 4,
+  //   icon: Icons.rust,
+  // },
   {
     name: "C# / .NET",
     description: "Develop performant cross-platform applications within Microsoft's robust ecosystem.",
@@ -181,12 +181,12 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.react,
   },
-  {
-    name: "Redux",
-    description: "Manage app state effectively using a predictable and centralized state container.",
-    rating: 5,
-    icon: Icons.redux,
-  },
+  // {
+  //   name: "Redux",
+  //   description: "Manage app state effectively using a predictable and centralized state container.",
+  //   rating: 5,
+  //   icon: Icons.redux,
+  // },
   {
     name: "Angular",
     description: "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
@@ -205,30 +205,30 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.tailwindcss,
   },
-  {
-    name: "Material UI",
-    description: "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-  {
-    name: "Bootstrap",
-    description: "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 4,
-    icon: Icons.bootstrap,
-  },
-  {
-    name: "HTML5",
-    description: "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 5,
-    icon: Icons.html5,
-  },
-  {
-    name: "CSS3",
-    description: "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 5,
-    icon: Icons.css3,
-  },
+  // {
+  //   name: "Material UI",
+  //   description: "Create stunning and responsive UIs with a popular React UI framework.",
+  //   rating: 4,
+  //   icon: Icons.mui,
+  // },
+  // {
+  //   name: "Bootstrap",
+  //   description: "Quickly create responsive and appealing web designs using a popular CSS framework.",
+  //   rating: 4,
+  //   icon: Icons.bootstrap,
+  // },
+  // {
+  //   name: "HTML5",
+  //   description: "Structure web content beautifully with the latest version of HyperText Markup Language.",
+  //   rating: 5,
+  //   icon: Icons.html5,
+  // },
+  // {
+  //   name: "CSS3",
+  //   description: "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+  //   rating: 5,
+  //   icon: Icons.css3,
+  // },
 
   // ==========================================
   // 4. DATA & STORAGE SOLUTIONS
@@ -245,12 +245,12 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.mysql,
   },
-  {
-    name: "SQL",
-    description: "Author optimized queries and schema migrations across relational database systems.",
-    rating: 5,
-    icon: Icons.sql,
-  },
+  // {
+  //   name: "SQL",
+  //   description: "Author optimized queries and schema migrations across relational database systems.",
+  //   rating: 5,
+  //   icon: Icons.sql,
+  // },
   {
     name: "MongoDB",
     description: "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",

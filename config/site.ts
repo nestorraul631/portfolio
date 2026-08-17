@@ -18,7 +18,7 @@ export const siteConfig = {
     "/nestor.png",
   keywords: [
     "Nestor Fanelli",
-    "Senior AI & Full Stack Software Engineer | LLM Integrations, AI Automation, Cloud Architecture (AWS/Azure)",
+    "Senior Software Engineer | AI Agents, RAG & LLM Systems | Full-Stack (React/Next.js, Python/Node) | AWS & Azure",
     "AI Engineer",
     "Software Engineer",
     "Full Stack Developer",

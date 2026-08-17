@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Nestor Fanelli | Senior AI & Full Stack Software Engineer | LLM Integrations, AI Automation, Cloud Architecture (AWS/Azure)",
+    name: "Nestor Fanelli | Senior Software Engineer | AI Agents, RAG & LLM Systems | Full-Stack (React/Next.js, Python/Node) | AWS & Azure",
     short_name: "Nestor Fanelli",
     description:
       "Nestor Fanelli - Senior AI & Full Stack Software Engineer working at the intersection of AI, data and scalable software systems.",
