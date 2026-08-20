@@ -19,7 +19,7 @@ export const experiences: ExperienceInterface[] = [
     id: "vertex-ai",
     position: "Senior AI & Full Stack Software Engineer",
     company: "Vertex AI Systems Inc.",
-    location: "United States, Remote",
+    location: "Remote, United States",
     startDate: new Date("2025-02-01"),
     endDate: new Date("2026-03-01"),
     description: [
@@ -42,7 +42,7 @@ export const experiences: ExperienceInterface[] = [
     id: "northpeak-software",
     position: "Senior Full Stack Software Engineer",
     company: "NorthPeak Software, Inc.",
-    location: "United State, Remote",
+    location: "Remote, United States",
     startDate: new Date("2023-01-01"),
     endDate: new Date("2024-12-01"),
     description: [
@@ -63,9 +63,9 @@ export const experiences: ExperienceInterface[] = [
   },
   {
     id: "self-employed",
-    position: "Web Developer Intern",
+    position: "Freelance AI & Full Stack Software Engineer",
     company: "Self-Employed",
-    location: "Entre Ríos, Argentina",
+    location: "Remote",
     startDate: new Date("2022-03-01"),
     endDate: new Date("2022-12-01"),
     description: [
@@ -87,7 +87,7 @@ export const experiences: ExperienceInterface[] = [
     id: "innovatech",
     position: "Full Stack Software Engineer",
     company: "Innovatech Solutions",
-    location: "Entre Ríos, Argentina",
+    location: "Remote, United States",
     startDate: new Date("2019-05-01"),
     endDate: new Date("2022-02-01"),
     description: [
@@ -108,7 +108,7 @@ export const experiences: ExperienceInterface[] = [
   {
     id: "nexo-digital",
     position: "Software Developer",
-    company: "Nexo Digital Labs",
+    company: "Remote, United States",
     location: "Entre Ríos, Argentina",
     startDate: new Date("2016-12-01"),
     endDate: new Date("2019-04-01"),
@@ -131,7 +131,7 @@ export const experiences: ExperienceInterface[] = [
     id: "nexo-digital2",
     position: "Junior Software Developer",
     company: "Nexo Digital Labs",
-    location: "Entre Ríos, Argentina",
+    location: "Remote, United States",
     startDate: new Date("2016-02-01"),
     endDate: new Date("2016-11-01"),
     description: [

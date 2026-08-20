@@ -193,12 +193,12 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.angular,
   },
-  {
-    name: "React Native",
-    description: "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
+  // {
+  //   name: "React Native",
+  //   description: "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+  //   rating: 4,
+  //   icon: Icons.react,
+  // },
   {
     name: "Tailwind CSS",
     description: "Design beautiful, modern websites faster with a utility-first CSS framework.",
