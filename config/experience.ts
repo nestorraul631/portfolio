@@ -108,8 +108,8 @@ export const experiences: ExperienceInterface[] = [
   {
     id: "nexo-digital",
     position: "Software Developer",
-    company: "Remote, United States",
-    location: "Entre Ríos, Argentina",
+    company: "Nexo Digital Labs",
+    location: "Remote, United States",
     startDate: new Date("2016-12-01"),
     endDate: new Date("2019-04-01"),
     description: [
