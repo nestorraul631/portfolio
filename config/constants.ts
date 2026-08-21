@@ -9,10 +9,12 @@ export type ValidSkills =
   | "Typescript"
   | "Javascript"
   | "HTML 5"
+  | "Healthcare"
   | "CSS 3"
   | "React Native"
   | "Angular"
   | "Redux"
+  | "Responsive CSS"
   | "Socket.io"
   | "Material UI"
   | "Tailwind CSS"
@@ -60,6 +62,7 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
+  | "WordPress"
   | "Framer Motion";
 
 export type ValidCategory =
@@ -69,7 +72,8 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "Healthcare";
 
 export type ValidExpType = "Personal" | "Professional";
 

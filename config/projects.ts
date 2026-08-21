@@ -73,24 +73,24 @@ export const Projects: ProjectInterface[] = [
     endDate: new Date("2024-10-01"),
     companyLogoImg: "/projects/niya/logo.png",
     pagesInfoArr: [
-      {
-        title: "Landing Page",
-        description:
-          "Modern landing page showcasing the template features, tech stack, and pricing options.",
-        imgArr: ["/logo.png"],
-      },
-      {
-        title: "Authentication System",
-        description:
-          "Complete authentication system with Supabase, protected routes, and role-based access control.",
-        imgArr: ["/logo.png"],
-      },
-      {
-        title: "Dashboard & Components",
-        description:
-          "Beautiful UI components with Magic UI, Radix primitives, and comprehensive dashboard templates.",
-        imgArr: ["/logo.png"],
-      },
+      // {
+      //   title: "Landing Page",
+      //   description:
+      //     "Modern landing page showcasing the template features, tech stack, and pricing options.",
+      //   imgArr: ["/logo.png"],
+      // },
+      // {
+      //   title: "Authentication System",
+      //   description:
+      //     "Complete authentication system with Supabase, protected routes, and role-based access control.",
+      //   imgArr: ["/logo.png"],
+      // },
+      // {
+      //   title: "Dashboard & Components",
+      //   description:
+      //     "Beautiful UI components with Magic UI, Radix primitives, and comprehensive dashboard templates.",
+      //   imgArr: ["/logo.png"],
+      // },
     ],
     descriptionDetails: {
       paragraphs: [
@@ -105,6 +105,90 @@ export const Projects: ProjectInterface[] = [
         "Implemented state management with Zustand for client state and React Query for server state management.",
         "Designed for developers and AI startups with all essential features to start building SaaS products.",
         "Achieved 30+ GitHub stars and recognition as a comprehensive starter template for modern web applications.",
+      ],
+    },
+  },
+  {
+    id: "newerarealestate",
+    companyName: "Newerarealestate",
+    type: "Personal",
+    category: ["Full Stack", "Web Dev", "UI/UX"],
+    shortDescription:
+      "Production-ready, full-service real estate web platform designed to disrupt traditional commission-based models with flat-fee home listings and interactive financial tools.",
+    websiteLink: "https://www.newerarealestate.ca/",
+    // githubLink: "",
+    techStack: ["WordPress", "PHP", "Javascript", "MySQL", "Tailwind CSS"],
+    startDate: new Date("2024-08-01"),
+    endDate: new Date("2024-10-01"),
+    companyLogoImg: "/projects/newerarealestate/1.png",
+    pagesInfoArr: [
+      {
+        title: "Listings",
+        description:
+          "Robust property catalog and comparison system with advanced filtering and search across multiple regions.",
+        imgArr: ["/projects/newerarealestate/4.png"],
+      },
+      {
+        title: "Sellers",
+        description:
+          "Interactive buyer and seller pages featuring custom financial calculators computing real-time commission savings and agent rebates.",
+        imgArr: ["/projects/newerarealestate/5.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "New Era Real Estate is a production-ready, full-service real estate web platform designed to disrupt traditional commission-based models by offering flat-fee home listings and interactive financial calculators.",
+        "Built using WordPress, PHP, JavaScript and MySQL, the platform handles extensive property listing catalogs and high-traffic user engagement with managed hosting and performance tuning.",
+        "It features dynamic buyer and seller financial calculators, a robust property discovery and comparison system and responsive UI components optimized for fast load times and an intuitive cross-device experience.",
+      ],
+      bullets: [
+        "Engineered a high-performance, SEO-optimized WordPress and PHP web application to handle extensive property listing catalogs and high-traffic user engagement.",
+        "Integrated dynamic, interactive buyer and seller financial calculators powered by JavaScript to compute real-time commission savings and agent rebates based on custom property valuations.",
+        "Built a robust property discovery and comparison system leveraging MySQL and custom post types, enabling users to seamlessly browse, filter and review active listings across multiple regions.",
+        "Implemented responsive, modern UI components with clean CSS layouts, ensuring an intuitive cross-device user experience for both homebuyers and sellers.",
+        "Optimized site architecture using managed hosting and performance tuning for fast load times, smooth client-side interactions and production deployment readiness.",
+      ],
+    },
+  },
+  {
+    id: "gleedentistry",
+    companyName: "Glee Dentistry",
+    type: "Personal",
+    category: ["Web Dev", "Healthcare", "UI/UX"],
+    shortDescription:
+      "A professional, patient-centric dental practice website featuring comprehensive service offerings and an integrated membership program to enhance oral health accessibility.",
+    websiteLink: "https://gleedentistry.com/",
+    // githubLink: "",
+    techStack: ["WordPress", "PHP", "Javascript", "MySQL", "Responsive CSS"],
+    startDate: new Date("2024-08-01"),
+    endDate: new Date("2024-10-01"),
+    companyLogoImg: "/projects/gleedentistry/1.png",
+    pagesInfoArr: [
+      {
+        title: "Services",
+        description:
+          "Detailed showcase of general and cosmetic dentistry, including dental implants, veneers, whitening and specialized restorative treatments.",
+        imgArr: ["/projects/gleedentistry/2.png"],
+      },
+      {
+        title: "Membership",
+        description:
+          "Integrated program details providing patients with transparent access to dental care plans and affordable oral health maintenance options.",
+        imgArr: ["/projects/gleedentistry/3.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Glee Dentistry is a patient-focused dental practice platform designed to facilitate easy access to cosmetic and restorative dental services while building long-term patient relationships.",
+        "Built on a professional WordPress architecture, the site integrates custom service modules, patient intake forms and membership management to streamline the patient journey from discovery to appointment scheduling.",
+        "The platform emphasizes a clean, welcoming UI that reflects the clinic's caring approach, optimized for mobile responsiveness and performance to ensure patients can easily find information and book emergency services.",
+      ],
+      bullets: [
+        "Engineered a high-performance, SEO-optimized WordPress site to showcase a comprehensive catalog of general and cosmetic dental procedures.",
+        "Developed a structured 'Services' hub that allows patients to explore diverse treatment options like implants, veneers and smile makeovers with clear, educational content.",
+        "Implemented a user-friendly 'Membership' section to explain patient care plans making high-quality dental care more accessible and transparent.",
+        "Integrated dynamic contact forms and appointment request functionality, ensuring seamless communication for new patients and emergency dental needs.",
+        "Optimized site architecture for fast load times and intuitive navigation, resulting in a professional and accessible digital presence for the Encinitas-based clinic.",
       ],
     },
   },
@@ -276,7 +360,7 @@ export const Projects: ProjectInterface[] = [
     shortDescription:
       "Elevated The Super Quotes app with JavaScript, React Native, APIs, Redux magic, and Google Play Store debut.",
     // websiteLink:
-      // "https://play.google.com/store/apps/details?id=com.thesuperlife",
+    // "https://play.google.com/store/apps/details?id=com.thesuperlife",
     techStack: ["React Native", "Node.js", "MongoDB", "Javascript"],
     startDate: new Date("2021-07-01"),
     endDate: new Date("2022-07-01"),
