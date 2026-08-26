@@ -60,6 +60,96 @@ export const Projects: ProjectInterface[] = [
   //   },
   // },
   {
+    id: "arrived",
+    companyName: "Arrived",
+    type: "Professional",
+    category: ["Full Stack", "Web Dev", "FinTech", "PropTech"],
+    shortDescription:
+      "A modern PropTech investment platform enabling everyday investors to buy shares in rental properties and vacation rentals with low minimums.",
+    websiteLink: "https://arrived.com/",
+    // githubLink: "",
+    techStack: ["Next.js", "React", "TypeScript", "Node.js", "Tailwind CSS", "PostgreSQL"],
+    startDate: new Date("2023-01-01"),
+    endDate: new Date("2023-06-01"),
+    companyLogoImg: "/projects/arrived/01.png",
+    pagesInfoArr: [
+      {
+        title: "Invest",
+        description:
+          "Dynamic property marketplace allowing users to browse, filter and purchase fractional shares of single-family rental and vacation properties.",
+        imgArr: ["/projects/arrived/02.png"],
+      },
+      {
+        title: "About",
+        description:
+          "Informational corporate overview highlighting the mission, leadership team, SEC-qualified compliance and how fractional real estate investing works.",
+        imgArr: ["/projects/arrived/03.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Arrived is an innovative real estate investing platform backed by world-class investors that makes homeownership and rental property investing accessible to everyone through fractional shares.",
+        "Built with a robust full-stack architecture, the platform features a secure, high-performance marketplace where users can browse vetted properties, review financial projections and execute investments seamlessly.",
+        "The application integrates secure authentication workflows, portfolio performance tracking, and streamlined checkout processes, ensuring a frictionless digital experience for retail investors.",
+      ],
+      bullets: [
+        "Engineered a high-performance investment marketplace supporting real-time property discovery, detailed financial metrics, and fractional share purchases.",
+        "Developed a comprehensive 'About' and educational section designed to build trust, explain SEC-compliant offerings, and outline investment strategies.",
+        "Implemented a secure user authentication and dashboard login system for tracking asset portfolios, dividend distributions and account history.",
+        "Optimized front-end components and responsive layouts for smooth cross-device interaction and fast asset loading.",
+        "Integrated robust backend data management to handle transaction processing, user verification and property investment metrics.",
+      ],
+    },
+  },
+  {
+    id: "ridgestreetcap",
+    companyName: "Ridge Street Capital",
+    type: "Personal",
+    category: ["Full Stack", "Web Dev", "FinTech", "Webflow"],
+    shortDescription:
+      "A modern Webflow-powered investment loan web application specializing in fast, flexible financing options including Fix and Flip, DSCR and Construction loans for real estate investors.",
+    websiteLink: "https://www.ridgestreetcap.com/",
+    // githubLink: "",
+    techStack: ["Webflow", "Javascript", "HTML 5", "CSS 3", "FinTech API Integrations"],
+    startDate: new Date("2024-01-01"),
+    endDate: new Date("2024-04-01"),
+    companyLogoImg: "/projects/ridgestreetcap/01.png",
+    pagesInfoArr: [
+      {
+        title: "Fix and Flip",
+        description:
+          "Dedicated landing page and application flow for short-term bridge loans tailored to real estate rehabbers and flippers.",
+        imgArr: ["/projects/ridgestreetcap/02.png"],
+      },
+      {
+        title: "DSCR Loans",
+        description:
+          "Informational and interactive loan application portal focused on Debt Service Coverage Ratio financing for rental property investors.",
+        imgArr: ["/projects/ridgestreetcap/03.png"],
+      },
+      {
+        title: "Construction Loans",
+        description:
+          "Streamlined financing solution pages detailing ground-up construction and major renovation capital draw schedules.",
+        imgArr: ["/projects/ridgestreetcap/04.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "Ridge Street Capital is a high-performance investment loan web application designed to connect real estate investors with fast, reliable funding options for residential and commercial projects.",
+        "Built using Webflow and enhanced with custom JavaScript integrations, the platform delivers an intuitive digital application experience, streamlining complex financial workflows for borrowers.",
+        "The application features specialized loan product pathways—including Fix and Flip, DSCR and Construction loans—optimized for conversion, fast loading and seamless cross-device accessibility.",
+      ],
+      bullets: [
+        "Engineered a responsive, high-conversion Webflow investment loan application portal tailored for real estate investors and brokers.",
+        "Developed dedicated product pages and interactive calculation workflows for Fix and Flip, DSCR and Construction loans.",
+        "Integrated custom JavaScript functionality to streamline user onboarding, document intake and loan inquiry submissions.",
+        "Optimized site architecture and asset delivery for lightning-fast performance, superior SEO rankings and seamless mobile responsiveness.",
+        "Designed a clean, professional UI emphasizing institutional trust, financial transparency and straightforward capital access.",
+      ],
+    },
+  },
+  {
     id: "niya-saas-template",
     companyName: "Niya SaaS Template",
     type: "Personal",
@@ -192,94 +282,94 @@ export const Projects: ProjectInterface[] = [
       ],
     },
   },
-  {
-    id: "portfolio-card",
-    companyName: "Portfolio Card",
-    type: "Personal",
-    category: ["Web Dev", "Frontend", "3D Modeling"],
-    shortDescription:
-      "Forged an immersive 3D Portfolio Card utilizing the prowess of Three.js and Blender, where art and technology converge in an interactive masterpiece.",
-    // websiteLink: "https://card.nestorfanelli.xyz/",
-    // githubLink: "https://github.com/nestorraul631/3d-portfolio-card",
-    techStack: ["React", "Javascript", "HTML 5", "CSS 3"],
-    startDate: new Date("2022-03-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/card/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Card Views",
-        description: "Front and back views of the interactive 3D card",
-        imgArr: ["/projects/card/card_2.png", "/projects/card/card_3.webp"],
-      },
-      {
-        title: "Interactive Elements",
-        description:
-          "Custom links embedded in the 3D model with interactive animations",
-        imgArr: ["/projects/card/card_1.png"],
-      },
-      {
-        title: "3D Model Development",
-        description: "Blender project showcasing the model creation process",
-        imgArr: ["/projects/card/card_4.png"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "In my personal, I've ventured into the world of creativity, fashioning a distinctive portfolio card through the utilization of Three.js.",
-        "This portfolio card transcends convention; it emerges as a captivating 3D model, adorned with meticulous lighting arrangements that conjure a spellbinding visual journey.",
-        "To materialize this concept, I've harnessed the combined potential of Three.js and Blender, orchestrating a meticulous crafting of the central 3D model that serves as the cornerstone of the card's allure.",
-        "Yet, the allure extends beyond aesthetics. I've ingeniously interwoven custom links directly into the fabric of Three.js components. Through the creation and seamless integration of novel components, these additions elegantly rest upon the card's surface, mirroring its rotations and delivering an interactive dimension to my portfolio.",
-        "The portfolio card itself is an opus of motion, perpetually swaying in an auto-rotational dance that unfurls its multifaceted essence. As an enhancement, I've introduced an instinctive user interaction element. A simple, intuitive drag of the card in specific directions grants viewers a comprehensive vantage, enabling exploration from every conceivable angle.",
-        "At its core, my personal epitomizes technical finesse, artistic expression, and interactive design. The amalgamation of Three.js, Blender's prowess, and the innovation of component integration has birthed not only a portfolio card, but a dynamic encounter leaving an indelible imprint on all who partake.",
-      ],
-      bullets: [
-        "Conceptualized and realized a distinct portfolio card using Three.js, highlighting creative exploration.",
-        "Crafted a mesmerizing 3D model enhanced by thoughtful lighting arrangements, resulting in a captivating visual voyage.",
-        "Leveraged the synergy of Three.js and Blender to meticulously sculpt and refine the central 3D model, embodying meticulous attention to detail.",
-        "Innovatively integrated custom links within Three.js components, introducing an interactive layer via seamlessly incorporated new elements.",
-        "Enabled an auto-rotating feature for the portfolio card, perpetually showcasing its various facets to observers.",
-        "Introduced an instinctual user interaction mechanism, allowing viewers to comprehensively explore the card's dimensions through simple, intuitive dragging motions.",
-        "Represented a fusion of technical prowess, artistic ingenuity, and interactive design in a project that reshapes the boundaries of conventional portfolio representation.",
-      ],
-    },
-  },
-  {
-    id: "the-super-focus",
-    companyName: "TheSuperFocus",
-    type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
-    shortDescription:
-      "Pomodoro-inspired productivity web app with real-time sessions and recurring payments.",
-    techStack: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "Socket.io",
-      "Typescript",
-      "MongoDB",
-    ],
-    startDate: new Date("2023-06-01"),
-    endDate: new Date("2023-12-01"),
-    companyLogoImg: "/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Realtime Focus Sessions",
-        description:
-          "Built real-time focus sessions using sockets to help people stay accountable and productive.",
-        imgArr: ["/logo.png"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "TheSuperFocus is a productivity web app inspired by the Pomodoro technique, built to help users stay focused and complete deep-work sessions.",
-        "It includes real-time session support and a paid tier with recurring billing.",
-      ],
-      bullets: [
-        "Built a Pomodoro-inspired productivity web app using real-time sockets.",
-        "Integrated Razorpay for recurring payments, securing 10+ premium users.",
-      ],
-    },
-  },
+  // {
+  //   id: "portfolio-card",
+  //   companyName: "Portfolio Card",
+  //   type: "Personal",
+  //   category: ["Web Dev", "Frontend", "3D Modeling"],
+  //   shortDescription:
+  //     "Forged an immersive 3D Portfolio Card utilizing the prowess of Three.js and Blender, where art and technology converge in an interactive masterpiece.",
+  //   // websiteLink: "https://card.nestorfanelli.xyz/",
+  //   // githubLink: "https://github.com/nestorraul631/3d-portfolio-card",
+  //   techStack: ["React", "Javascript", "HTML 5", "CSS 3"],
+  //   startDate: new Date("2022-03-01"),
+  //   endDate: new Date("2022-07-01"),
+  //   companyLogoImg: "/projects/card/logo.png",
+  //   pagesInfoArr: [
+  //     {
+  //       title: "Card Views",
+  //       description: "Front and back views of the interactive 3D card",
+  //       imgArr: ["/projects/card/card_2.png", "/projects/card/card_3.webp"],
+  //     },
+  //     {
+  //       title: "Interactive Elements",
+  //       description:
+  //         "Custom links embedded in the 3D model with interactive animations",
+  //       imgArr: ["/projects/card/card_1.png"],
+  //     },
+  //     {
+  //       title: "3D Model Development",
+  //       description: "Blender project showcasing the model creation process",
+  //       imgArr: ["/projects/card/card_4.png"],
+  //     },
+  //   ],
+  //   descriptionDetails: {
+  //     paragraphs: [
+  //       "In my personal, I've ventured into the world of creativity, fashioning a distinctive portfolio card through the utilization of Three.js.",
+  //       "This portfolio card transcends convention; it emerges as a captivating 3D model, adorned with meticulous lighting arrangements that conjure a spellbinding visual journey.",
+  //       "To materialize this concept, I've harnessed the combined potential of Three.js and Blender, orchestrating a meticulous crafting of the central 3D model that serves as the cornerstone of the card's allure.",
+  //       "Yet, the allure extends beyond aesthetics. I've ingeniously interwoven custom links directly into the fabric of Three.js components. Through the creation and seamless integration of novel components, these additions elegantly rest upon the card's surface, mirroring its rotations and delivering an interactive dimension to my portfolio.",
+  //       "The portfolio card itself is an opus of motion, perpetually swaying in an auto-rotational dance that unfurls its multifaceted essence. As an enhancement, I've introduced an instinctive user interaction element. A simple, intuitive drag of the card in specific directions grants viewers a comprehensive vantage, enabling exploration from every conceivable angle.",
+  //       "At its core, my personal epitomizes technical finesse, artistic expression, and interactive design. The amalgamation of Three.js, Blender's prowess, and the innovation of component integration has birthed not only a portfolio card, but a dynamic encounter leaving an indelible imprint on all who partake.",
+  //     ],
+  //     bullets: [
+  //       "Conceptualized and realized a distinct portfolio card using Three.js, highlighting creative exploration.",
+  //       "Crafted a mesmerizing 3D model enhanced by thoughtful lighting arrangements, resulting in a captivating visual voyage.",
+  //       "Leveraged the synergy of Three.js and Blender to meticulously sculpt and refine the central 3D model, embodying meticulous attention to detail.",
+  //       "Innovatively integrated custom links within Three.js components, introducing an interactive layer via seamlessly incorporated new elements.",
+  //       "Enabled an auto-rotating feature for the portfolio card, perpetually showcasing its various facets to observers.",
+  //       "Introduced an instinctual user interaction mechanism, allowing viewers to comprehensively explore the card's dimensions through simple, intuitive dragging motions.",
+  //       "Represented a fusion of technical prowess, artistic ingenuity, and interactive design in a project that reshapes the boundaries of conventional portfolio representation.",
+  //     ],
+  //   },
+  // },
+  // {
+  //   id: "the-super-focus",
+  //   companyName: "TheSuperFocus",
+  //   type: "Personal",
+  //   category: ["Full Stack", "Web Dev", "UI/UX"],
+  //   shortDescription:
+  //     "Pomodoro-inspired productivity web app with real-time sessions and recurring payments.",
+  //   techStack: [
+  //     "Next.js",
+  //     "React",
+  //     "Node.js",
+  //     "Socket.io",
+  //     "Typescript",
+  //     "MongoDB",
+  //   ],
+  //   startDate: new Date("2023-06-01"),
+  //   endDate: new Date("2023-12-01"),
+  //   companyLogoImg: "/logo.png",
+  //   pagesInfoArr: [
+  //     {
+  //       title: "Realtime Focus Sessions",
+  //       description:
+  //         "Built real-time focus sessions using sockets to help people stay accountable and productive.",
+  //       imgArr: ["/logo.png"],
+  //     },
+  //   ],
+  //   descriptionDetails: {
+  //     paragraphs: [
+  //       "TheSuperFocus is a productivity web app inspired by the Pomodoro technique, built to help users stay focused and complete deep-work sessions.",
+  //       "It includes real-time session support and a paid tier with recurring billing.",
+  //     ],
+  //     bullets: [
+  //       "Built a Pomodoro-inspired productivity web app using real-time sockets.",
+  //       "Integrated Razorpay for recurring payments, securing 10+ premium users.",
+  //     ],
+  //   },
+  // },
   {
     id: "built-design",
     companyName: "Builtdesign",

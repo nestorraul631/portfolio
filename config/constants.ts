@@ -19,6 +19,7 @@ export type ValidSkills =
   | "Material UI"
   | "Tailwind CSS"
   | "AWS"
+  | "FinTech API Integrations"
   | "Bootstrap"
   | "Google Auth"
   | "MySQL"
@@ -55,12 +56,14 @@ export type ValidSkills =
   | "Spring Boot"
   | "Laravel"
   | "PHP"
+  | "TypeScript"
   | "Flutter"
   | "Dart"
   | "Flask"
   | "Django"
   | "FastAPI"
   | "SQL"
+  | "Webflow"
   | "NoSQL"
   | "WordPress"
   | "Framer Motion";
@@ -73,7 +76,10 @@ export type ValidCategory =
   | "Web Dev"
   | "Mobile Dev"
   | "3D Modeling"
-  | "Healthcare";
+  | "Healthcare"
+  | "Webflow"
+  | "PropTech"
+  | "FinTech";
 
 export type ValidExpType = "Personal" | "Professional";
 
